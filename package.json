@@ -1,0 +1,13 @@
+{
+  "name": "itzemoji-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx wrangler pages dev ./dist",
+    "deploy": "npx wrangler pages deploy ./dist --project-name=itzemoji-portfolio",
+    "preview": "npx wrangler pages dev ./dist --port 8788"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}
